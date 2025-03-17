@@ -1,0 +1,28 @@
+@use "../../assets/styles/index" as *;
+
+:root {
+    --sidebar-width: 300px;
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    flex-shrink: 0;
+
+    .container {
+        background-color: $primary-color;
+        height: 100%;
+        width: 100%;
+
+        .button {
+            color: $secondary-color;
+
+            &:hover {
+                background-color: $primary-color-hover
+            }
+
+            .icon {
+                color: $secondary-color;
+            }
+        }
+    }
+}

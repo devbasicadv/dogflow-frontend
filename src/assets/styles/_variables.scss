@@ -1,0 +1,27 @@
+// Color Palette
+$primary-color: #004a79; 
+$primary-color-hover: #045e97; 
+$secondary-color: #ffffff;
+$error-color: #d32f2f;
+$background-color: #F4F4F4;
+$text-color-primary: #333333;
+$text-color-secondary: #888888;
+
+// Breakpoints
+$breakpoint-sm: 600px;
+// $breakpoint-md: 960px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+// $breakpoint-lg: 1280px;
+
+// Tipografia
+$font-primary: system-ui, Avenir, Helvetica, Arial, sans-serif;
+$font-size: 16px;
+$font-size-h1: 1.5rem;
+$font-size-p: 1rem;
+
+
+// Altezza fissa per header e footer
+$header-height: 40px;
+$footer-height: 0;
+

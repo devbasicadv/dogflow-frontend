@@ -1,0 +1,9 @@
+@use "../../assets/styles/index" as *;
+
+.icon{
+    color: $primary-color;
+}
+
+.menuItemError{
+    color: $error-color !important;
+}

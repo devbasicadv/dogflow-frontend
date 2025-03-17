@@ -1,0 +1,15 @@
+@use "../../assets/styles/index" as *;
+
+.footer {
+    height: $footer-height;
+    width: 100%;
+    background-color: $primary-color;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}

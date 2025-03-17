@@ -1,0 +1,15 @@
+@use "index" as *;
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh; // L'intero layout occupa tutto lo schermo
+
+    .container {
+        flex: 1; // Questo permette al contenuto di occupare tutto lo spazio disponibile
+        overflow-y: auto;
+        padding: 10px 5px;
+        margin-top: $header-height; // Evita che il contenuto vada sotto l'header
+        margin-bottom: $footer-height; // Evita che il contenuto venga coperto dal footer
+    }
+}

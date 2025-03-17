@@ -1,0 +1,110 @@
+@use "../../assets/styles/index" as *;
+
+.members {
+    .cardTable {
+        .container {
+            .header {
+                font-size: $font-size-h1;
+                font-weight: 500;
+            }
+
+            .divider {
+                margin: 0 0 0.7rem 0;
+                border-color: $text-color-secondary;
+            }
+
+            .dividerLast {
+                border-color: $text-color-secondary;
+            }
+
+
+            .actions {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .text {
+                    width: calc(100% - 40px);
+
+                    p {
+                        color: $text-color-primary;
+                        font-weight: 500;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        width: 100%;
+                    }
+                }
+            }
+
+            p {
+                color: $text-color-primary;
+                font-weight: 500;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .icon {
+                color: $primary-color;
+                font-size: $font-size-p;
+                margin-right: 0.2rem;
+            }
+        }
+    }
+
+    .footer {
+        width: 100%;
+        height: 3.5rem;
+    }
+
+    .createButton {
+        position: absolute;
+        bottom: 0;
+        right: 0.2rem;
+
+        .icon {
+            color: $primary-color;
+            font-size: 3.5rem;
+        }
+    }
+}
+
+.createMembers {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+        position: absolute;
+        top: $header-height;
+        width: 100%;
+        height: $header-height;
+        background-color: $primary-color-hover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+
+        .button {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin: 0 10px;
+        }
+    }
+
+    .main {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

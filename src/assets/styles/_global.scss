@@ -1,0 +1,54 @@
+@use "index" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $primary-color-hover;
+}
+
+html, body {
+  height: 100%;
+  font-family: $font-primary;
+  background-color: $background-color;
+  color: $text-color-primary;
+  overflow: hidden;
+  font-size: $font-size;
+}
+
+h1 {
+  color: $text-color-primary;
+  font-size: $font-size-h1;
+}
+
+p {
+  color: $text-color-secondary;
+  font-size: $font-size-p;
+}
+
+
+//TextField
+// .css-15hwqkt-MuiInputBase-root-MuiFilledInput-root::after{
+//   border-color: $primary-color !important; 
+// }
+
+// .css-a1ur75-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+//   color: $primary-color !important;
+// }
